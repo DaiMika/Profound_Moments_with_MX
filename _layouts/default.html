@@ -10,9 +10,14 @@
 </head>
 <body>
   <header>
-    <img src="/assets/images/logo.png" alt="Logo" style="height:60px;">
-    <h1><a href="{{ '/' | relative_url }}">Profound Moments with MX</a></h1>
-  </header>
+  <img src="/assets/images/logo.png" alt="Logo" style="height:60px;">
+  <h1><a href="{{ '/' | relative_url }}">Profound Moments with MX</a></h1>
+  <nav style="margin-top:10px;">
+    <a href="{{ '/' | relative_url }}">Home</a> |
+    <a href="{{ '/projects' | relative_url }}">Projects</a> |
+    <a href="{{ '/about' | relative_url }}">About</a>
+  </nav>
+</header>
   <main>{{ content }}</main>
   <footer>
     <p>© {{ "now" | date: "%Y" }} Maxyn Edogha — Profound Moments with MX</p>

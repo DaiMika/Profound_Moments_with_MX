@@ -20,3 +20,22 @@ a:hover {
   text-decoration: underline;
 }
 
+nav a {
+  color: #e58b34;
+  margin: 0 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #e58b34;
+}
+
+img {
+  border-radius: 10px;
+}
+
