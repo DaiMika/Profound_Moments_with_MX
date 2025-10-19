@@ -1,0 +1,21 @@
+title: "Profound Moments with MX"
+description: "A space for reflections, creative writing, and insights by Maxyn Edogha."
+author: "Maxyn Edogha"
+email: "maxdietunnie@gmail.com"
+url: "https://ProfoundMoments.github.io"
+baseurl: "/Profound_Moments_with_MX"
+theme: minima
+
+social_links:
+  facebook: "https://bit.ly/ProfoundMomentswithMX"
+  instagram: "https://instagram.com/maxdie_tunnie"
+  medium: "https://medium.com/@DaiMika"
+  selar: "https://selar.com/m/maxyn-edogha1"
+  amazon: "https://www.amazon.com/-/e/B0FN7H1RF2"
+  whatsapp: "+2349159530769"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+

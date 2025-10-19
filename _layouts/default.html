@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Profound Moments with MX</title>
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {% seo %}
+</head>
+<body>
+  <header>
+    <img src="/assets/images/logo.png" alt="Logo" style="height:60px;">
+    <h1><a href="{{ '/' | relative_url }}">Profound Moments with MX</a></h1>
+  </header>
+  <main>{{ content }}</main>
+  <footer>
+    <p>© {{ "now" | date: "%Y" }} Maxyn Edogha — Profound Moments with MX</p>
+  </footer>
+</body>
+</html>
+
