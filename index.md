@@ -3,7 +3,8 @@ layout: default
 title: "Profound Moments with MX"
 ---
 
-<img src="/assets/images/logo.png" alt="Profound Moments with MX" style="width:120px;">
+<img src="{{ site.baseurl }}/assets/images/logo.png" alt="Profound Moments with MX" style="width:120px;">
+
 
 # Welcome to Profound Moments with MX
 
